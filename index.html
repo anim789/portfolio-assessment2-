@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="header">
+  <nav class="navbar" aria-label="Main">
+    <a class="brand" href="index.html">MyPortfolio</a>
+    <button id="navToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <ul id="navMenu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" role="banner" aria-label="Hero">
+    <div class="hero-content">
+      <h1>Hello, I'm <span class="accent">Your Name</span></h1>
+      <p class="subtitle">Aspiring web developer with a passion for clean, accessible interfaces.</p>
+      <a class="btn" href="projects.html">View Projects</a>
+    </div>
+    <img class="hero-image" src="assets/hero.jpg" alt="Illustration representing web development">
+  </section>
+
+  <section class="features">
+    <article>
+      <h2>Front‑End</h2>
+      <p>HTML, CSS, and a touch of JavaScript to craft responsive, accessible UIs.</p>
+    </article>
+    <article>
+      <h2>Back‑End</h2>
+      <p>PHP basics and REST concepts to connect forms and services.</p>
+    </article>
+    <article>
+      <h2>Deployment</h2>
+      <p>GitHub + Cloudflare Pages for fast, free, and reliable hosting.</p>
+    </article>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span> Your Name — All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
